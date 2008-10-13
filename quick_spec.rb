@@ -22,6 +22,6 @@ describe "Quicksort" do
   end
  
   it "should sort an array with same numbers" do
-    quick([1, 1, 1]).should == [1, 1, 1]
+    quick([1, 3, 2, 1]).should == [1, 1, 2, 3]
   end
 end
